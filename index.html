@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf=8">
+    <title>Tany</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top-container">
+        <img class="cloud" src="./assets/cloud.png">
+        <h1>I'm Tanya</h1>
+        <img class="cloud" src="./assets/cloud.png">
+    </div>
+    <div class="middle-container">
+        <img src="./assets/tanya-profile.png" alt="tanya's profile">
+        <h2 id="job"></h2>
+        <p class="intro">Someone who loves turning ideas into clean, scalable
+            apps. Big fan of React, Node, and creating products that actually make sense. Always up for solving real
+            problems with smart code!. I 🧡 coffee and singing🎶 besides that, I am a foodie too 🍕</p>
+        <hr>
+    </div>
+    <div class="bottom-container">
+        <h2>My Skills.</h2>
+        <img src="./assets/react-icon.png" class="react-img" />
+        <div class="tech-stack">
+            <p> My journey into web development began with a simple question: "How does that button know what to
+                do?" That curiosity quickly turned into a passion, and over the past 3+ years, I’ve been building
+                intuitive, responsive, and downright enjoyable user experiences.
+                Whether it’s collaborating with a team, debugging a stubborn issue, or adding that final touch of
+                polish to a UI, I’m all in. I care about clean code, thoughtful design, and creating things that
+                make people’s lives a little easier (and a lot more delightful).
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class="coffee-text">
+        <h2>Coffee Addict? 😍</h2>
+        <img alt="coffee-gif"
+            src="https://media3.giphy.com/media/nuotlxgu78Ddzaq0HR/200w.gif?cid=6c09b952iqnkrwpqz4y82tz7bsoh4m4vwhgdl8i6t9c32eou&ep=v1_gifs_search&rid=200w.gif&ct=g">
+        <p>Let's grab up a cup of Coffee. </p>
+        <h2>Get in touch with me</h2>
+    </div>
+    <a class="contact-me" href="mailto:tanyabose56@gmail.com">Contact Me</a>
+    <div class="footer">
+        <div class="">
+            <a class="link" href="https://www.linkedin.com/in/tanya-bose-93b864135/">Linkedin</a>
+            <a class="link" href="https://www.facebook.com/tanya.bose.9">Facebook</a><br>
+        </div>
+        <p>©️ 2020 Tanya Bose</p>
+    </div>
+</body>
+<script>
+    const heading = "A Web Developer! ❤️";
+    const job = document.getElementById('job');
+    let i = 0;
+
+    function typeWriter() {
+        if (i < heading.length) {
+            job.innerHTML += heading[i];
+            i++;
+            setTimeout(typeWriter, 200)
+        } else {
+            setTimeout(() => {
+                job.innerHTML = ''
+                i = 0;
+                typeWriter()
+            }, 2000)
+        }
+    }
+    typeWriter()
+</script>
+
+</html>
