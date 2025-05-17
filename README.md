@@ -4,7 +4,7 @@ This is my personal website built using HTML, CSS, JavaScript, clean and respons
 
 🚀 `Live Demo`
 
-Click here to view the live site (TODO)
+Click [here](https://portfolio-seven-blush-29.vercel.app/) to view the live site.
 
 🧰 `Tech Stack`
 
