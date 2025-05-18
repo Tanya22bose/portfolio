@@ -13,7 +13,7 @@
 
 📄 `Features`
 
-- Responsive design (mobile-friendly) (TODO)
+- Responsive design (mobile-friendly)
 - `About Me` section, `Skills` showcase
 - Contact form
 

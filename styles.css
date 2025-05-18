@@ -77,6 +77,14 @@ hr {
 
 .middle-container {
   margin: 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  width: 50%;
 }
 
 .middle-container > img {
@@ -84,11 +92,6 @@ hr {
   width: 12rem;
   height: 12rem;
   object-fit: cover;
-}
-
-.intro {
-  width: 30%;
-  margin: auto;
 }
 
 .bottom-container {
@@ -109,7 +112,6 @@ hr {
 
 .layer {
   background-color: #dcf7f9e0;
-  text-shadow: 1px 1px 1px 10px #071616, 1px 1px 1px 10px black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -150,7 +152,6 @@ hr {
 .contact-me {
   color: #fff;
   background-color: #117a7a;
-  box-shadow: 1px 1px 1px 1px solid rgba(120, 85, 85, 0.1);
   border-radius: 17px;
   border: none;
   display: inline-block;
@@ -177,4 +178,37 @@ hr {
 
 .link:hover {
   color: #beefef;
+}
+
+@media screen and (max-width: 1400px) {
+  h2 {
+    font-size: 4rem;
+  }
+
+  .cloud {
+    right: 5rem;
+  }
+
+  .top-container > h1 + img {
+    left: 5rem;
+  }
+
+  .intro {
+    font-size: 2rem;
+    width: 80%;
+  }
+
+  .layer > p {
+    font-size: 2rem;
+    width: 70%;
+  }
+
+  .tech-stack {
+    height: 35rem;
+  }
+
+  .contact-me {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
 }
