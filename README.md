@@ -1,6 +1,6 @@
 🌐 `Personal Portfolio Website`
 
-- This is my personal website built using HTML, CSS, JavaScript. 
+- This is my personal website built using HTML, CSS, JavaScript.
 - Clean and responsive design to showcase who I am and what I do.
 
 🚀 `Live Demo`
@@ -15,18 +15,17 @@
 
 - Responsive design (mobile-friendly) (TODO)
 - `About Me` section, `Skills` showcase
-- Contact form 
+- Contact form
 
 📁 `Folder Structure`
 
 ├── index.html
-
 ├── styles.css
-
 └── assets
 
 🛠️ How to Use
 Clone the repo:
+
 - git clone [repo-link](https://github.com/Tanya22bose/portfolio.git)
 - Open index.html in your browser or use Live Server.
 
