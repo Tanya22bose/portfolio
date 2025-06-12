@@ -1,34 +1,32 @@
-🌐 `Personal Portfolio Website`
+# 🌐 Personal Portfolio Website
 
 - This is my personal website built using HTML, CSS, JavaScript.
 - Clean and responsive design to showcase who I am and what I do.
 
-🚀 `Live Demo`
+## 🚀 Live Demo
 
 - Click [here](https://portfolio-seven-blush-29.vercel.app/) to view the live site.
 
-🧰 `Tech Stack`
+## 🧰 Tech Stack
 
-- `HTML5`, `CSS3` (including Flexbox), `Vanilla JS`
+- HTML5, CSS3 (including Flexbox), Vanilla JS
 
-📄 `Features`
+## 📄 Features
 
 - Responsive design (mobile-friendly)
 - `About Me` section, `Skills` showcase
 - Contact form
 
-📁 `Folder Structure`
-
+## 📁 Folder Structure
+```
 ├── index.html
 ├── styles.css
 └── assets
+```
 
-🛠️ How to Use
-Clone the repo:
+## 🛠️ How to Use
+1. Clone the repo: git clone [repo-link](https://github.com/Tanya22bose/portfolio.git)
+2. Open index.html in your browser or use Live Server.
 
-- git clone [repo-link](https://github.com/Tanya22bose/portfolio.git)
-- Open index.html in your browser or use Live Server.
-
-✍️ Author: Tanya Bose ([LinkedIn](https://www.linkedin.com/in/tanya-bose-93b864135/))
-
+### ✍️ Author: Tanya Bose ([LinkedIn](https://www.linkedin.com/in/tanya-bose-93b864135/))
 Let me know if you'd like a version with extra sections like dark mode, animations, or GitHub Pages deployment instructions!
